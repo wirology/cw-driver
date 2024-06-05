@@ -1,10 +1,13 @@
 <h1>Unix command line CW keyer mini manual.</h1>
 <br><br>
-
-With C++ dev environment, type "make release" to build tools, which are<br>
-  #1 a "driver" binary for morse code from keyboard input<br>
-  #2 a "ascii2pcm" binary for morse code from stdin.<br>
-Without C++ dev, the provided binaries may work.<br>
+License: GPL
+<br><br>
+<pre>
+With C++ dev environment, type "make release" to build tools, which are
+  #1 a "driver" binary for morse code from keyboard input
+  #2 a "ascii2pcm" binary for morse code from stdin.
+Without C++ dev, the provided binaries may work.
+</pre>
 <br>
 To send training texts, use shell scripts in "training" subfolder.
 <br><br>
