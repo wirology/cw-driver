@@ -1,4 +1,4 @@
-<h1>Unix command line CW keyer mini manual.</h1>
+<h1>Unix Command Line CW Keyer Mini Manual.</h1>
 <br><br>
 License: GPL
 <br><br>
@@ -30,10 +30,12 @@ remove debug info:
 strip driver
 <br><br>
 For CW operation a transceiver bridge is recommended. For me, the minimalist circuit in
-transceiver_bridge_circuit.png did the trick without need for USB or power supply, with speeds
+circuits/simple_bridge_with_transformer.png did the trick without need for USB or power supply, with speeds
 of up to 60wpm. All bridge parts were taken from an abandoned TV's main board and the little transformer
 I found worked best with high pitch 3000Hz sidetone. For more agreeable values, simply put your preferences
 in run_cwtext_from_driver.sh. Replace sidetone=3000 by sidetone=800.
+<br><br>
+Of late, I put some more effort into bridge circuit development.
 <br><br>
 To run the driver, from this directory, simply type
 $> ./driver <br>
